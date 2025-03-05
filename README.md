@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aplicação Next.js
+Esta é uma aplicação web desenvolvida com Next.js, um framework React que permite criar aplicações modernas e escaláveis com renderização do lado do servidor (SSR), geração estática (SSG) e rotas dinâmicas. A aplicação utiliza várias bibliotecas populares para gerenciamento de estado, formulários, notificações e manipulação de cookies.
 
-## Getting Started
+## 🚀 Tecnologias Utilizadas
+Principais Dependências
+1. Next.js (v15.2.0): Framework React para construção de aplicações web modernas.
+2. React (v19.0.0): Biblioteca JavaScript para construção de interfaces de usuário.
+3. React DOM (v19.0.0): Renderização de componentes React no navegador.
+4. Axios (v1.8.1): Cliente HTTP para fazer requisições à API.
+5. React Hook Form (v7.54.2): Biblioteca para gerenciamento de formulários com validação.
+6. Zustand (v5.0.3): Biblioteca para gerenciamento de estado global.
+7. React Toastify (v11.0.5): Biblioteca para exibir notificações (toasts) na aplicação.
+8. Lucide React (v0.477.0): Biblioteca de ícones para React.
+9. date-fns (v4.1.0): Biblioteca para manipulação de datas.
+10. js-cookie (v3.0.5): Biblioteca para manipulação de cookies no navegador.
 
-First, run the development server:
+## 🛠️ Funcionalidades Principais
+- Autenticação: Gerenciamento de sessão de usuário com cookies.
+- Formulários: Validação de formulários com react-hook-form.
+- Notificações: Exibição de mensagens de sucesso, erro e alertas com react-toastify.
+- Gerenciamento de Estado: Uso de zustand para gerenciar o estado global da aplicação.
+- Ícones: Utilização de ícones modernos com lucide-react.
+- Requisições HTTP: Comunicação com APIs externas usando axios.
+- Manipulação de Datas: Formatação e manipulação de datas com date-fns.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Como Executar o Projeto
+### Pré-requisitos
+Node.js (v18.x ou superior)
+npm ou yarn
+
+### Passos para Execução
+Clone o repositório:
+```
+git clone https://github.com/Mateus0808/linkup-front.git
+cd linkup-front
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Instale as dependências:
+```
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Executar
+```
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Acesse a aplicação no navegador: http://localhost:3000
